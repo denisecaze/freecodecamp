@@ -1,0 +1,149 @@
+body {
+  margin: 0 auto;
+}
+
+.container1 {
+  background-image: url(./img/bg-dots.png);
+  height: 370px;
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+
+h1 {
+  font-family: 'Pacifico', cursive;
+  font-size: 65px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+h2 {
+  font-family: 'Bungee Shade', cursive;
+  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 0px;
+}
+
+.container2 {
+  padding-top: 150px; 
+}
+
+#resume {
+  font-family: 'Nanum Pen Script', cursive;
+  font-size: 24px;
+  margin-left: 120px;
+  margin-right: 120px;
+  text-align: center;
+  padding-bottom: 33px;
+}
+
+#text1 {
+  max-width:77%;
+}
+
+#title1 {
+  color: orange;
+  text-align: right;
+  margin-right: 120px;
+}
+
+#text1>p {
+  font-family: 'Consolas', sans-serif;
+  font-size: 16px;
+  margin-left: 120px;
+  margin-right: 120px;
+  text-align: justify;
+}
+
+#img2 {
+  margin-right: 120px;
+  margin-top: -205px;
+  float: right;
+  border: solid 2px orange;
+}
+
+#text2 {
+  margin-top: 40px;
+  text-align: right;
+  margin-left: 230px;
+}
+
+#title2 {
+  color: red;
+  text-align: left;
+  margin-left: 120px;
+}
+
+#text2>p {
+  font-family: 'Consolas', sans-serif;
+  font-size: 16px;
+  margin-left: 120px;
+  margin-right: 120px;
+  text-align: justify;
+}
+
+#img3 {
+  margin-left: 120px;
+  margin-top: -165px;
+  float: left;
+  border: solid 2px red;
+}
+
+#text3 {
+  max-width:77%;
+  margin-top: 40px;
+  text-align: right;
+}
+
+#text3>p {
+  font-family: 'Consolas', sans-serif;
+  font-size: 16px;
+  margin-left: 120px;
+  margin-right: 120px;
+  text-align: justify;
+}
+
+#img4 {
+  margin-right: 120px;
+  margin-top: -202px;
+  float: right;
+  border: solid 2px green;
+}
+
+#title3 {
+  color: green;
+  margin-right: 120px;
+}
+
+.container3 {
+  text-align: center;
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+
+button {
+  padding: 10px 30px;
+  border-radius: 5px;
+  background-color: orange;
+}
+
+button a {
+  font-family: 'Nanum Pen Script', cursive;
+  font-size: 25px;
+  text-decoration: none;
+  color: black;
+}
+
+.fa {
+  color: black;
+}
+
+footer {
+  font-family: 'Consolas', sans-serif;
+  font-size: 16px;
+  border: solid 1px grey;
+  background-color: lightgrey;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  text-align: center;
+}
+

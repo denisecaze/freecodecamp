@@ -1,0 +1,200 @@
+/* Sticky footer styles
+-------------------------------------------------- */
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 0px;
+  background-color: rgb(97, 97, 97);
+}
+
+.footer {
+  position: absolute;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  line-height: 60px; /* Vertically center the text there */
+  background-color: #f5f5f5;
+}
+
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+p.text-muted.text-center {
+  margin-bottom: 0px;
+}
+
+.logo {
+  margin-left: 105px;
+}
+
+nav {
+  border-bottom: 2px solid rgb(47,251,251);
+  font-family: 'Pompiere', cursive;
+  font-size: 21px;
+  height: 80px;
+}
+
+div#navbarCollapse.collapse.navbar-collapse {
+  margin-right: -310px;
+}
+
+ul {
+  margin: auto;
+}
+
+#presentation, #skills, #projects, #contact {
+  padding-top: 80px;
+  padding-bottom: 20px;
+}
+
+body > .container {
+  padding: 60px 15px;
+  text-align: center;
+}
+
+h1 {
+ font-family: 'Fredericka the Great', cursive;
+}
+
+h4, h6 {
+  font-family: 'Gafata', sans-serif;
+  font-weight: bold;
+}
+
+p {
+  font-size: 20px;
+  font-family: 'Gafata', sans-serif;
+}
+
+.col-md-2 {
+  padding-top: 12px;
+  font-size: 20px;
+  font-family: 'Love Ya Like A Sister', cursive;
+  font-weight: bold;
+}
+
+.col-md-6 {
+  text-align: center;
+}
+
+.metade form {
+  line-height: 200%;
+  font-weight: bold;
+  font-family: 'Gafata', sans-serif;
+  font-size: 18px;
+
+}
+.metade form input[type=text], textarea {
+  border: none;
+  border-bottom: 1px solid rgb(47,251,251);
+  width: 50%;
+  padding: 0px;
+  background-color: rgb(97, 97, 97);
+}
+
+.metade textarea {
+  min-height: 130px;
+}
+
+.metade input[type=submit] {
+  float: center;
+  border: 1px solid rgb(47,251,251);
+  border-radius: 2px;
+  background-color: rgb(97, 97, 97);
+  padding: 3px 20px 3px 20px;
+  color: rgb(47,251,251);
+  font-family: 'Gafata', sans-serif;
+
+}
+
+.metade label {
+  width: 50%;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.col-md-12 {
+  align-content: center;
+}
+
+.col-md-12.link {
+  text-align: center;
+  letter-spacing: 20px;
+  cursor: pointer;
+}
+
+footer > .container {
+  padding-right: 15px;
+  padding-left: 15px;
+  height: 30px;
+}
+
+code {
+  font-size: 80%;
+}
+
+/* home */
+
+.home {
+  background-color: white;
+  background-repeat: no-repeat;
+  background-position: center;  
+  background-size: 1366px;
+  max-width: 100%;
+}
+
+#arara {
+  padding: 20px 0px 0px 0px;
+  background-image: url('../img/fundopixel_2.png');
+  background-position: bottom;
+  margin-top: 80px;
+  height: 567px;
+  width: 1366px;
+}
+
+.texto_home_1 {
+  margin-top: 80px;
+  font-size: 70px;
+  text-align: center;
+  font-family: 'Londrina Solid', cursive;
+  letter-spacing: 2px;
+  color: rgb(67, 67, 67);
+}
+
+.texto_home_2 {
+  margin-top: 0px;
+  font-size: 28px;
+  padding-top: 20px; 
+  text-align: center;
+  font-family: 'Pompiere', cursive;
+  color: rgb(97, 97, 97);
+}
+
+
+/* Smartphone -fazer */
+@media (max-width: 768px) {
+
+}
+
+
+/* Tablet - fazer*/
+@media (min-width: 768px) and (max-width: 962px) {
+
+}
+
+
+
+/* 
+Fazer formulário funcionar
+Estudar melhor container, grids, sections, articles, divs e classes. 
+Estudar o site do bootstrap. 
+Estudar tamanho de imagens.
+Estudar melhor as possibilidades do 'insepcionar' 
+*/
