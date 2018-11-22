@@ -1,0 +1,95 @@
+body {
+  background-color: #fee5cb;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: 2.5;
+  font-family: 'Tahoma', Sans-Serif;
+}
+
+#title {
+  color: #6a0a29;
+}
+
+.form-container {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 40px;
+  width: 50%;
+}
+
+#description {
+  height: 50px;
+}
+
+#survey-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.personal-input {
+  width: 200px;
+  padding: 5px;
+}
+
+#number-label {
+  margin-right: 10px;
+}
+
+#dropdown {
+  padding: 5px;
+}
+
+option {
+  padding: 5px;
+}
+
+fieldset {
+  width: 110px;
+  border: none;
+}
+
+.radio-div {
+  display: flex;
+  flex-direction: row;
+}
+
+.check-div {
+  display: flex;
+  flex-direction: row; 
+}
+
+.checks {
+  margin-left: 14px;
+}
+
+.textarea-div {
+  display: flex;
+  flex-direction: column;
+}
+
+#textarea {
+  font-family: inherit;
+  padding: 5px;
+}
+
+.submit-button {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+#submit {
+  padding: 8px 20px; 
+  background-color: #6a0a29;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  font-size: 15px;
+}
+
+#submit:hover {
+  background-color: #b94a59;
+}

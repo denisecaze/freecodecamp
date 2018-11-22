@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang='pt-br'>
+  <head>
+    <meta charset='utf-8' />
+    <link rel='stylesheet' href='style.css' />
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,400italic,700,700italic" rel="stylesheet">
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    <title>Survey Form</title> 
+  </head>
+  <body>
+    <h1 id='title'>SURVEY FORM</h1>
+    <div class='form-container'>
+      <p id='description'>Let us know how we can improve freeCodeCamp</p>
+      <form id='survey-form'>
+        <div class='personal-info-div'>
+          <label id='name-label' for='name'>* Name:</label>
+          <input class='personal-input' id='name' type='text' placeholder='Enter your name' required /> 
+        </div>
+        <div class='main-info'>
+          <label id='email-label' for='email'>* Email:</label>
+          <input class='personal-input' id='email' type='email' placeholder='Enter your email' required />
+        </div>
+        <div class='main-info'>
+          <label id='number-label' for='number'>* Age:</label>
+          <input class='personal-input' id='number' type='number' min='12' max='80' placeholder='Enter your age' required /> 
+        </div>
+        <div class='select-div-1'>
+          <label>Which option best describes your current role?</label>
+        <select id='dropdown'>
+          <option name='choose'>Select an option</option>
+          <option name='student'>Student</option>
+          <option name='job'>Full time job</option>
+          <optino name='learner'>Full time learner</optino>
+          <option name='not-say'>Prefer not to Say</option>
+          <option name='other'>Other</option>
+        </select>
+        </div>
+        <div class='radio-div'>
+          <label>How likely is that you would recommend freeCodeCamp to a friend?</label>
+          <fieldset name='group-1'>
+            <input type='radio' name='group-1' value='definitely' />Definitely
+          <br />
+            <input type='radio' name='group-1' value='maybe' />Maybe
+          <br />
+            <input type='radio' name='group-1' value='not-sure' />Not sure
+          </fieldset>
+        </div>
+        <div class='select-div-2'>
+          <label>Which option best describes your current role?</label>
+        <select id='dropdown'>
+          <option name='choose'>Select an option</option>
+          <option name='challenges'>Challenges</option>
+          <option name='projects'>Projects</option>
+          <option name='community'>Community</option>
+          <option name='open-source'>Open source</option>
+        </select>
+        </div>
+        <div name='group-2' class='check-div'>
+          <label>Things that should be improved in the future
+(Check all that apply):</label>
+          <div class='checks'>
+            <input type='checkbox' value='front' />Front-end projects
+            <br />
+            <input type='checkbox' value='back' />Back-end projects
+            <br />
+            <input type='checkbox' value='data' />Data visualization
+            <br />
+            <input type='checkbox' value='challenges' />Challenges
+            <br />
+            <input type='checkbox' value='open' />Open source community
+            <br />
+            <input type='checkbox' value='gitter' />Gitter help rooms
+            <br />
+            <input type='checkbox' value='videos' />Videos
+            <br />
+            <input type='checkbox' value='meetups' />City meetups
+            <br />
+            <input type='checkbox' value='wiki' />Wiki
+            <br />
+            <input type='checkbox' value='forum' />Forum
+            <br />
+            <input type='checkbox' value='additional' />Additional course
+          </div>
+        </div>
+        <div class='textarea-div'>
+          <label for='textarea'>Any Comments or Suggestions?</label>
+          <textarea id='textarea' placeholder='Enter your comment here'></textarea>
+        </div>
+        <div class='submit-button'>
+          <button id='submit' type='submit'>Submit</button>
+        </div>
+      </form>
+    </div>
+    <script src="scripts/index.js"></script>
+  </body>
+</html>
