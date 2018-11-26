@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Product Landing Page</title>
+    <link rel="stylesheet" type="text/css" href="./style.css" />
+  </head>
+  <header id="header">
+    <a href="#about"><img src="./img/logo.png" id="header-img" width="280px" /></a>
+    <nav id="nav-bar">
+      <a href="#demo" class="nav-link">DEMO</a>
+      <a href="#pricing" class="nav-link">PRICING</a>
+      <a href="#contact" class="nav-link">CONTACT</a>
+    </nav>
+  </header>
+  <body>
+    <div id="about">
+      <h1>McFly Flying skates</h1>
+      <p>The future has arrived and is waiting for you</p>
+    </div>
+    <div id="demo">
+      <video id="video" width="500" height="370" controls="true">
+        <source src="https://www.youtube.com/watch?v=TkyLnWm1iCs" type="video/mp4" />
+      </video>
+    </div>
+    <div id="pricing">
+      <div class="card card-1">
+        <h2>Versão demo</h2>
+        <h3>R$2.000,00</h3>
+        <p>description</p>
+        <button id="select">select</button>
+      </div>
+      <div class="card card-2">
+        <h2>Versão demo</h2>
+        <h3>R$2.000,00</h3>
+        <p>description</p>
+        <button id="select">select</button>
+      </div>
+      <div class="card card-3">
+        <h2>Versão demo</h2>
+        <h3>R$2.000,00</h3>
+        <p>description</p>
+        <button id="select">select</button>
+      </div>
+    </div>
+    <div id="contact">
+      <p>Tell us your e-mail to payment and send details</p>
+      <form id="form" method="post" action="https://www.freecodecamp.com/email-submit">
+        <input type="email" id="email" name="email" placeholder="Enter your e-mail adresss" required />
+        <input type="submit" id="submit" />
+      </form>
+    </div>
+  </body>
+</html>
